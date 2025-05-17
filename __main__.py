@@ -23,7 +23,7 @@ def main(path: str, max_length: int = -1) -> None:
     for file in list_of_files: 
         preprocessed_file = preprocess_file(file)
         speak_file(preprocessed_file)
-        
+
 
 if __name__ == "__main__":
     """
